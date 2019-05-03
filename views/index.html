@@ -1,0 +1,64 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- This project is based on the Glitch hello-express starter app -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        An API Learning App
+      </h1>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>
+          Hello! This app is here to help you learn a bit about APIs by contributing a new endpoint. The app is hosted on Glitch at <strong><a href="https://api-learner.glitch.me">api-learner.glitch.me</a></strong> and managed as an open source project on GitHub in the <strong><a href="https://github.com/SueSmith/glitch-api-learner">Glitch API Learner</a></strong> repo.
+        </p>
+        <p>
+          <strong>Check out the tutorial in the <a href="https://glitch.com/edit/#!/api-learner?path=README.md">README</a> to learn about APIs and make an open source contribution at the same time!</strong>
+        </p>
+      </section>
+      
+      <section class="endpoints">
+        <h2>
+          Endpoints
+        </h2>
+        <ul id="endpoints">
+          <li>
+            <a href="/benormal">sue</a>
+          </li>
+          <!-- add a link to your endpoint here -->
+          <!-- link to the endpoint name you added in server.js -->
+          <!-- use any text you like as the content of the anchor element -->
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
