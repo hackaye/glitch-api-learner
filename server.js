@@ -21,6 +21,11 @@ app.get('/benormal', function(request, response) {
   response.send('writes code and words');
 });
 
+//groucho endpoint - note the \ escape character before ' quotes to distinguish from the enclosing quotes
+app.get('/groucho', function(request, response){
+  response.send('outside of a dog a book is a man\'s best friend, inside of a dog, it\'s too dark to read');
+});
+
 //add your endpoint here - use the 'get' method and give it a unique name (check the name hasn't already been used)
 //inside the endpoint method return whatever you like to the client
 
