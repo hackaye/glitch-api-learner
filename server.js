@@ -21,6 +21,10 @@ app.get('/benormal', function(request, response) {
   response.send('writes code and words');
 });
 
+app.get('/maldi', function(request, response) {
+  response.send('White sandy beach');
+});
+
 //groucho endpoint - note the \ escape character before ' quotes to distinguish from the enclosing quotes
 app.get('/groucho', function(request, response){
   response.send('outside of a dog a book is a man\'s best friend, inside of a dog, it\'s too dark to read');
