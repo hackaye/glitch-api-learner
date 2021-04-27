@@ -220,3 +220,5 @@ These are some of the key skills in being part of a developer team. :rocket: Nex
 * [Tons of API projects on Glitch that you can learn from and remix](https://glitch.com/search?q=rest%20api&activeFilter=project)
 
 ___Please feel free to use this project in any way you find helpful - I'd love it if you'd let me know about any cool things you do with it or report any problems you come across in the [GitHub project issues](https://github.com/hackaye/glitch-api-learner/issues)!___
+
+_testing with new info_
