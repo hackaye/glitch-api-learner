@@ -17,6 +17,11 @@ app.get('/', function(request, response) {
 });
 
 //starter endpoint
+app.get('/beyourself', function(request, response) {
+  response.send('learn more and more');
+});
+
+//starter endpoint
 app.get('/benormal', function(request, response) {
   response.send('writes code and words');
 });
