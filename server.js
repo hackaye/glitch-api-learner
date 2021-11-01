@@ -26,12 +26,16 @@ app.get('/maldi', function(request, response) {
 });
 
 //groucho endpoint - note the \ escape character before ' quotes to distinguish from the enclosing quotes
-app.get('/groucho', function(request, response){
+app.get('/groucho', function(request, response) {
   response.send('outside of a dog a book is a man\'s best friend, inside of a dog, it\'s too dark to read');
 });
 
 //add your endpoint here - use the 'get' method and give it a unique name (check the name hasn't already been used)
 //inside the endpoint method return whatever you like to the client
+
+app.get('/mcgrealife', function(request, response) {
+  response.send('dreams of seeing dynamic lists augmented on reality walls 🤓');
+});
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
