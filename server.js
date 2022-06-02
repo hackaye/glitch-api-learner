@@ -42,6 +42,10 @@ app.get('/mcgrealife', function(request, response) {
   response.send('dreams of seeing dynamic lists augmented on reality walls 🤓');
 });
 
+app.get('/gorilinos', function(request, response) {
+  response.send('I will be the Pirate King! ');
+});
+
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
