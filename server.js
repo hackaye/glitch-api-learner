@@ -26,6 +26,11 @@ app.get('/benormal', function(request, response) {
   response.send('writes code and words');
 });
 
+//example
+app.get('/hashim', function(request, response) {
+  response.send('My Name Is Hashim');
+});
+
 app.get('/maldi', function(request, response) {
   response.send('White sandy beach');
 });
